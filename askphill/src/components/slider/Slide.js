@@ -1,7 +1,14 @@
-const Slide = () => {
+const Slide = ({data}) => {
+
     return (
         <div className="Slide">
-            <p>I am an individual slide</p>
+            <div className="Slide-Bg"></div>
+            <div className="Slide-Img">
+                <img src={data.image} alt={data.title} />
+            </div>
+            <div className="Slide-Title">
+                <h2>{data.title}</h2>
+            </div>
         </div>
     )
 }

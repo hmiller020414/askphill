@@ -1,31 +1,39 @@
+import Daily_Img from '../images/Daily_Img.jpeg';
+import Medical_Img from '../images/Medical_Img.jpeg';
+import Sport_Img from '../images/Sport_Img.jpeg';
+import ToRecover_Img from '../images/ToRecover_Img.jpeg';
+import ToSki_Img from '../images/ToSki_Img.jpeg';
+import ToTravel_Img from '../images/ToTravel_Img.jpeg';
+import ToWalk_Img from '../images/ToWalk_Img.jpeg';
+
 const MenuSlideData = [
     {
         title: 'Daily',
-        image: 'Daily_Img.jpeg',
+        image: Daily_Img,
     },
     {
         title: 'Sport',
-        image: 'Sport_Img.jpeg',
+        image: Sport_Img,
     },
     {
-        title: 'To ski',
-        image: 'ToSki_Img.jpeg',
+        title: 'Ski',
+        image: ToSki_Img,
     },
     {
-        title: 'To travel',
-        image: 'ToTravel_Img.jpeg',
+        title: 'Travel',
+        image: ToTravel_Img,
     },
     {
-        title: 'To recover',
-        image: 'ToRecover_Img.jpeg',
+        title: 'Recover',
+        image: ToRecover_Img,
     },
     {
-        title: 'To walk',
-        image: 'ToWalk_Img.jpeg',
+        title: 'Walk',
+        image: ToWalk_Img,
     },
     {
         title: 'Medical',
-        image: 'Medical_Img.jpeg',
+        image: Medical_Img,
     },
 ]
 

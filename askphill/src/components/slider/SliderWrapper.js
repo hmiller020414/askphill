@@ -1,10 +1,17 @@
 import Slide from './Slide'
+import './SliderWrapper.scss'
 
-const SliderWrapper = () => {
+const SliderWrapper = ({slideData}) => {
+
+    const slides = slideData.map((s, idx) => 
+        <Slide data={s} key={`slide_${s.title}_${s.idx}`} />
+    )
+
     return (
         <div className="SliderWrapper">
-            <h6>I am a slider wrapper</h6>
-            <Slide />
+            <div className="SliderWrapper-Inner">
+                {slides}
+            </div>
         </div>
     )
 }

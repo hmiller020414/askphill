@@ -1,3 +1,5 @@
+import DropdownSubmenu from './DropdownSubmenu'
+
 const Dropdown = ({data}) => {
     return (
         <div className="Dropdown">
@@ -7,7 +9,7 @@ const Dropdown = ({data}) => {
                     <div className="Dropdown-BtnArrow" />
                 </div>
             </button>
-            {/* <DropdownSubmenu data={data} /> */}
+            <DropdownSubmenu data={data.options} />
         </div>
     )
 }

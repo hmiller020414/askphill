@@ -1,0 +1,34 @@
+.DropdownWrapper {
+    width: 100%;
+    height: calc(100vh - 302px);
+    overflow-y: scroll;
+    .DropdownWrapper-Inner {
+        width: 100%;
+        height: 100%;
+        .Dropdown {
+            .Dropdown-Btn {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #000;
+                background: none;
+                padding: 20px 0;
+                .Dropdown-BtnInner {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 auto;
+                    h3 {
+                        margin: 0;
+                        text-transform: uppercase;
+                    }
+                    .Dropdown-BtnArrow {
+                        width: 5px;
+                        height: 5px;
+                        background: #000;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,13 @@
-const Dropdown = () => {
+const Dropdown = ({data}) => {
     return (
         <div className="Dropdown">
-            <p>I am an individual dropdown section</p>
+            <button className="Dropdown-Btn">
+                <div className="Dropdown-BtnInner">
+                    <h3>{data.title}</h3>
+                    <div className="Dropdown-BtnArrow" />
+                </div>
+            </button>
+            {/* <DropdownSubmenu data={data} /> */}
         </div>
     )
 }

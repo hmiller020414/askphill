@@ -1,10 +1,17 @@
 import Dropdown from './Dropdown'
+import './DropdownWrapper.scss'
 
-const DropdownWrapper = () => {
+const DropdownWrapper = ({dropdownData}) => {
+
+    const dropdowns = dropdownData.map(d => 
+        <Dropdown data={d} key={`dropdown_${d.title}_${d.options.stock}`} />
+    )
+
     return (
         <div className="DropdownWrapper">
-            <h6>I am the dropdown wrapper</h6>
-            <Dropdown />
+            <div className="DropdownWrapper-Inner">
+                {dropdowns}
+            </div>
         </div>
     )
 }

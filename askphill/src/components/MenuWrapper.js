@@ -10,8 +10,7 @@ const MenuWrapper = () => {
         <div className="MenuWrapper">
             <Header />
             <SliderWrapper slideData={MenuData.MenuSlideData} />
-            <h1>Here are my dropdowns</h1>
-            <DropdownWrapper />
+            <DropdownWrapper dropdownData={MenuData.DropdownData}/>
         </div>
     )
 }

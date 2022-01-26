@@ -1,12 +1,11 @@
 import './App.css';
-import MenuData from './data/MenuData'
+import MenuWrapper from './components/MenuWrapper'
 
 function App() {
-
-  console.log(MenuData);
   
   return (
     <div className="App">
+      <MenuWrapper />
     </div>
   );
 }

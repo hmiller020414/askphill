@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import MenuWrapper from './components/MenuWrapper'
 
 function App() {
